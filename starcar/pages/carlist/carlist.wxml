@@ -176,7 +176,7 @@
 
             <!--地区和公里数-->
             <view class="areaAndMileage">
-              {{item.useYear || 0}}年{{item.enrMonth || 1}}月 / {{item.journey}}万公里 
+              {{item.useYear || 0}} / {{item.journey}}万公里 
               <view class='areaRight'>{{item.location || "北京"}}</view>
             </view>
 
